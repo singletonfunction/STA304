@@ -71,7 +71,7 @@ where *k*=1000, usually.
 *Standardised Death Rates* of *A* and *B* are given respectively by :
 
 $$
-m^a=\frac{D^a}{P^a}\times1000 =\frac{\displaystyle \sum_xm_x^aP_x^a}{\displaystyle \sum_xp_x^a}
+m^a=\frac{D^a}{P^a}\times1000 =\frac{\displaystyle \sum_xm_x^aP_x^a}{\displaystyle \sum_xP_x^a}
 $$
 
 $$
