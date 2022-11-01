@@ -75,10 +75,10 @@ m^a=\frac{D^a}{P^a}\times1000 =\frac{\displaystyle \sum_xm_x^aP_x^a}{\displaysty
 $$
 
 $$
-m^b=\frac{D^b}{P^b}\times1000=\frac{\displaystyle\sum_xm_x^bP_x^a}{\displaystyle\sum_xp_x^a}
+m^b=\frac{D^b}{P^b}\times1000=\frac{\displaystyle\sum_xm_x^bP_x^a}{\displaystyle\sum_xP_x^a}
 $$
 
-Where $m_x^a$ is death rate per 1000 for population A ; $m_x^b$ is death rate per 1000 for population B ;  $p_x^a$ is population of A.
+Where $m_x^a$ is death rate per 1000 for population A ; $m_x^b$ is death rate per 1000 for population B ;  $P_x^a$ is population of A.
 
 
 
