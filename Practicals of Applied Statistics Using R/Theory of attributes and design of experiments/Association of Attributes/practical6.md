@@ -14,7 +14,7 @@
 **Procedure:** 
 
 If $(AB) > (A)(B)/N$, then $A, B$ are positive associated.
-If $ (AB)<(A)(B)/N,$ then $A, B$ are negative associated.
+If $(AB)<(A)(B)/N,$ then $A, B$ are negative associated.
 If $(AB)=(A)(B),$ then $A,B$ are independent.
 
 **R-Command:** 
@@ -131,4 +131,4 @@ print("independent")
 
 **Conclusion:** 
 
-From the above experiment we conclude that, In first case $A$ and $B$ are Positively associated, in second case $A$ and $B $ are negatively associated and in third case $A$ and $B$ are Independent.
+From the above experiment we conclude that, In first case $A$ and $B$ are Positively associated, in second case $A$ and $B$ are negatively associated and in third case $A$ and $B$ are Independent.
