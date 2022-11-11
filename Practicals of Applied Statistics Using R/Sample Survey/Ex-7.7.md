@@ -1,6 +1,8 @@
-# Practical #21
+# Practical #1
 
 ##### Practical Topic: Simple Random Sampling 
+
+
 
 **Experiment:** Consider a population of 6 units with values 1,2,3,4,5,6. Write down all possible samples of 2 (without replacement) from this population and verify that sample mean is an unbiased estimate of the population mean. Also calculate its sampling variance and verify that-
 
@@ -8,21 +10,47 @@
 
 ​	$(ii)$ this variance is less than the variance obtained from sampling with replacement.
 
-**Aim:** To write all the possible sample of 2 using SRSWOR and verify that sample mean is an unbiased estimator of population mean  
 
-**Processor:** 
 
-Population mean $\displaystyle \bar Y=\frac{1}{N}\sum Y$
+**Aim:** To write all the possible sample of 2 using SRSWOR and verify that sample mean is an unbiased estimator of population mean .
 
-Population mean square error, $\displaystyle S^2=\frac{1}{N-1}\sum (Y-\bar Y)^2=\frac{1}{N-1}\left[\sum Y^2-N\bar Y^2\right]$ 
+Also calculate its sampling variance and verify that-
+
+​	$(i)$ it agree with the formula for the variance of the sample mean, and
+
+​	$(ii)$ this variance is less than the variance obtained from sampling with replacement.
+
+
+
+**Procedure:** 
+
+Population mean $\displaystyle \bar Y_N=\frac{1}{N}\sum_{i=1}^N Y_i$ 
+
+Population mean square, $\displaystyle S^2=\frac{1}{N-1}\sum_{i=1}^N (Y_i-\bar Y_N)^2=\frac{1}{N-1}\left[\sum_{i=1}^N Y_i^2-N\bar Y_N^2\right]$ 
 
 Population Variance, $\displaystyle \sigma^2=\frac{N-1}{N}S^2$
 
- Expected value of sample mean , $\displaystyle E[\bar Y]=\left[{\sum_{i=1}\bar y_i}/{^NC_n}\right]$ 
+ Expected value of sample mean , $\displaystyle E[\bar y]=\left[{\sum_{i=1}\bar y_i}/{^NC_n}\right]$ 
 
 In SRSWOR, the variance is given by the formula: $\displaystyle Var(\bar y)=\frac{N-n}{Nn}S^2$  
 
 in SRSWR, Variance is given by $\displaystyle Var(\bar y)\ in \ srswr= \frac{\sigma^2}{n}$
+
+where N = total population size and $n$= sample units
+
+$Y_i$ = each unit in population
+
+$\bar y_i$= mean of sampling units
+
+
+
+
+
+
+
+
+
+
 
 **R-Code:** 
 
@@ -132,4 +160,4 @@ Var_srswr>Var_srswor
 [1] TRUE
 ```
 
-**Conclusion:** From the above experiment,  we conclude that sample mean is an unbiased estimator of the population mean. The calculated sampling variance is equal to variance of sample mean using SRSWOR, which is  equals to 1.166667. And $\displaystyle Var(\bar y)\,in\,srswr>Var(\bar y)\, in\,srswor$ . 
+**Conclusion:** From the above experiment,  we conclude that sample mean is an unbiased estimator of the population mean. The calculated sampling variance is equal to variance of sample mean using SRSWOR, which is  equals to 1.166667. And $\displaystyle Var(\bar y)\,in\,srswr>Var(\bar y)\, in\,srswor$ , i.e. 1.458333 > 1.166667.
