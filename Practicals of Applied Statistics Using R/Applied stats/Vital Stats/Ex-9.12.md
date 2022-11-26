@@ -9,7 +9,8 @@
 | Number of women ('000)                   | 16.0  | 16.4  | 15.8  | 15.2  | 14.8  | 15.0  | 14.5  |
 | Total Births                             | 260   | 2244  | 1894  | 1320  | 916   | 280   | 145   |
 
-  Assume that the proportion of female births is 46.2 percent.
+  Assume that the proportion of female births is 46.2 percent. 
+  
 **AIM:** To Compute G.F.R, S.F.R, T.F.R and the gross reproduction rate.
 
 **Procedure:** 
