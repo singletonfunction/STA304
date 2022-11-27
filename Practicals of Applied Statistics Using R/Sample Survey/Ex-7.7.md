@@ -84,7 +84,7 @@ if(Y_bar==Exp_y_bar) {
   paste0("Sample mean is an unbiased estimator of the population mean")
 } else
 {
-  paste0("Sample mean is an unbiased estimator of the population mean")
+  paste0("Sample mean is not an unbiased estimator of the population mean")
 }
 Var_y_bar=(1/15)*(sum((y_bar-Y_bar)*(y_bar-Y_bar)));Var_y_bar
 Var_srswor=((N-n)/(N*n))*S_sq;Var_srswor
