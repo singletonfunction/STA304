@@ -50,7 +50,6 @@ $$
 ```r
 rm(list=ls())
 number_of_women_fPx=c(16.0,16.4,15.8,15.2,14.8,15.0,14.5)
-Age_SFR_per_1000=c(98,169.6,158.2,139.7,98.6,42.8,16.9)
 Number_of_Birth_nBx=c(260,2244,1894,1320,916,280,145)
 age_S_F_R=((Number_of_Birth_nBx)/(number_of_women_fPx))*1000
 Age_S_F_R=sum((age_S_F_R)/1000)
@@ -68,7 +67,6 @@ G_R_R
 ```R
 > rm(list=ls())
 > number_of_women_fPx=c(16.0,16.4,15.8,15.2,14.8,15.0,14.5)
-> Age_SFR_per_1000=c(98,169.6,158.2,139.7,98.6,42.8,16.9)
 > Number_of_Birth_nBx=c(260,2244,1894,1320,916,280,145)
 > age_S_F_R=((Number_of_Birth_nBx)/(number_of_women_fPx))*1000
 > Age_S_F_R=sum((age_S_F_R)/1000)
