@@ -106,7 +106,7 @@ p1=c(366.67,186.58,182.57,181.25,155.75,498.83)
 q1=c(6.2,116.9,5.5,1.0,6.1,0.6)
 la=(sum(p1*q0)/sum(p0*q0))*100
 la
-Pa=(sum(p1*q1)/sum(p0*q0))*100
+Pa=(sum(p1*q1)/sum(p0*q1))*100
 Pa
 em=(sum(p1*(q1+q0))/sum(p0*(q1+q0)))*100
 em
@@ -130,15 +130,16 @@ fi
 > la=(sum(p1*q0)/sum(p0*q0))*100
 > la
 [1] 107.556
-> Pa=(sum(p1*q1)/sum(p0*q0))*100
+> Pa=(sum(p1*q1)/sum(p0*q1))*100
 > Pa
-[1] 119.2349
+[1] 108.69
 > em=(sum(p1*(q1+q0))/sum(p0*(q1+q0)))*100
 > em
 [1] 108.1492
 > fi=sqrt(la*Pa)
 > fi
-[1] 113.245
+[1] 108.1215
+
 ```
 
-**Conclusion:** From above experiment we calculate $(i)$ Laspeyre's Index No.=107.556   $(ii)$ Paasche's  Index  No.=119.2349   $(iii)$ Edgeworth-Marshal Index No.=108.1492  $(iv)$ Fisher's Ideal  Index No.=113.245 
+**Conclusion:** From above experiment we calculate $(i)$ Laspeyre's Index No.=107.556   $(ii)$ Paasche's  Index  No.=108.69   $(iii)$ Edgeworth-Marshal Index No.=108.1492  $(iv)$ Fisher's Ideal  Index No.=108.1215
