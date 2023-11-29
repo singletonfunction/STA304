@@ -39,15 +39,15 @@ $$
 
 Where $S^2=\frac{1}{N-1}\displaystyle\sum_i\sum_j(y_{ij}-\bar y_{..})^2$ is the total mean S.S
 
-Total S.S = $\displaystyle\sum \sum {y_{ij}}^2-Correction \ factor$
+Total S.S = $\displaystyle\sum \sum {y_{ij}}^2-\texttt{Correction factor}$
 
 Between Strata S.S= $\displaystyle\sum_{j=1}^n\frac{{T_{.j}}^2}{k}-C.F.$
 
 Within Strata S.S= Total S.S - Between Strata S.S
 
-$\displaystyle{S_{wst}}^2=\frac{Within \ Strata \ S.S}{n(k-1)}$
+$\displaystyle{S_{wst}}^2=\frac{\texttt{Within Strata S.S}}{n(k-1)}$
 
-$\displaystyle S^2=\frac{Total \ S.S}{N-1} $
+$\displaystyle S^2=\frac{\texttt{Total S.S}}{N-1} $
 
 
 
